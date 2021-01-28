@@ -8,6 +8,7 @@ const initialState = {
   isValid: false,
   showError: false,
   noMoreNumber: false,
+  showInfo: false,
 };
 
 const reducer = (state = initialState, action) => {
@@ -43,6 +44,12 @@ const reducer = (state = initialState, action) => {
         isValid: false,
         showError: false,
         noMoreNumber: true,
+      };
+
+    case actionTypes.SHOW_INFO:
+      return {
+        ...state,
+        showInfo: !state.showInfo,
       };
 
     default:
