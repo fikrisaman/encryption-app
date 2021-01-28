@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/encryption-app/static/css/main.3a430ba5.chunk.css",
+    "main.js": "/encryption-app/static/js/main.fcbc934c.chunk.js",
+    "main.js.map": "/encryption-app/static/js/main.fcbc934c.chunk.js.map",
+    "runtime-main.js": "/encryption-app/static/js/runtime-main.45ee59be.js",
+    "runtime-main.js.map": "/encryption-app/static/js/runtime-main.45ee59be.js.map",
+    "static/js/2.50ba6261.chunk.js": "/encryption-app/static/js/2.50ba6261.chunk.js",
+    "static/js/2.50ba6261.chunk.js.map": "/encryption-app/static/js/2.50ba6261.chunk.js.map",
+    "static/js/3.ba6e7c70.chunk.js": "/encryption-app/static/js/3.ba6e7c70.chunk.js",
+    "static/js/3.ba6e7c70.chunk.js.map": "/encryption-app/static/js/3.ba6e7c70.chunk.js.map",
+    "index.html": "/encryption-app/index.html",
+    "static/css/main.3a430ba5.chunk.css.map": "/encryption-app/static/css/main.3a430ba5.chunk.css.map",
+    "static/js/2.50ba6261.chunk.js.LICENSE.txt": "/encryption-app/static/js/2.50ba6261.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45ee59be.js",
+    "static/js/2.50ba6261.chunk.js",
+    "static/css/main.3a430ba5.chunk.css",
+    "static/js/main.fcbc934c.chunk.js"
+  ]
+}
