@@ -1,0 +1,37 @@
+.Introduction {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Introduction header {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.Introduction p {
+  font-size: 1.2rem;
+  margin: 0px;
+}
+
+@media (min-width: 400px) {
+  .Introduction header {
+    font-size: 2.5rem;
+  }
+
+  .Introduction p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .Introduction header {
+    font-size: 3rem;
+  }
+
+  .Introduction p {
+    font-size: 1.5rem;
+  }
+}

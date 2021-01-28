@@ -1,0 +1,75 @@
+.Form {
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: inherit;
+}
+
+.Form p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(143, 19, 19);
+}
+
+.Form input {
+  padding: 5px;
+  /* font-size: 20px; */
+  font-size: 1.2rem;
+  background: #ffffff;
+  border: 2px solid #000000;
+  outline: none;
+  width: 70%;
+}
+
+.Form button {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+.Form input:disabled {
+  background-color: #c7c6c6;
+}
+
+.Form button:disabled {
+  background-color: #c7c6c6;
+  cursor: not-allowed;
+}
+
+@media (min-width: 500px) {
+  .Form p {
+    font-size: 17px;
+  }
+
+  .Form input {
+    font-size: 20px;
+  }
+
+  .Form button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 645px) {
+  .Form {
+    width: 600px;
+  }
+
+  .Form p {
+    font-size: 20px;
+  }
+
+  .Form input {
+    font-size: 25px;
+  }
+
+  .Form button {
+    font-size: 25px;
+  }
+}
