@@ -1,6 +1,6 @@
 .Form {
   margin: auto;
-  width: 80vw;
+  width: 95%;
   text-align: center;
   box-sizing: border-box;
   padding: 10px;
@@ -15,22 +15,27 @@
 
 .Form input {
   padding: 5px;
-  /* font-size: 20px; */
-  font-size: 1.2rem;
+  width: 60%;
+  font-size: 1rem;
   background: #ffffff;
   border: 2px solid #000000;
   outline: none;
-  width: 70%;
 }
 
 .Form button {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   padding: 5px;
   margin-left: 10px;
   background: #ffffff;
   border: 2px solid #000000;
   cursor: pointer;
+}
+
+button.infoBtn {
+  border-radius: 50%;
+  margin-left: 10px;
+  outline: none;
 }
 
 .Form input:disabled {

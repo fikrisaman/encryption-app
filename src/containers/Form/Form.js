@@ -111,10 +111,6 @@ class Form extends Component {
     const vowel = parseInt(keyStr[0]);
     const consonent = parseInt(keyStr[1]);
 
-    // const vowel = 2; // for testing
-    // const consonent = 6; // for testing
-    // console.log(vowel, consonent);
-
     const uppercase = /[A-Z]/;
 
     const encryptedText = [...text].map((c) => {
@@ -260,6 +256,13 @@ class Form extends Component {
           <button disabled={this.props.noMoreNumber}>
             <i className="fas fa-chevron-right"></i>
           </button>
+          <button
+            className={classes.infoBtn}
+            onClick={this.props.onClickInfo}
+            type="button"
+          >
+            <i className="fas fa-question fa-sm"></i>
+          </button>
         </form>
       </div>
     );
@@ -289,6 +292,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch({ type: actions.STORE_RANDOM_KEY, randKey: randKey }),
     onStringNotValid: () => dispatch({ type: actions.STRING_NOT_VALID }),
     onNoMoreNumber: () => dispatch({ type: actions.NO_MORE_NUMBER }),
+    onClickInfo: () => dispatch({ type: actions.SHOW_INFO }),
   };
 };
 
