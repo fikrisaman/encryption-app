@@ -23,12 +23,11 @@ const InfoBox = (props) => {
         }}
       >
         <p>
-          This app generates a random key and encrypts the text. The key for
-          encryption will be a two digit number randomly generated within the
-          range 11 to 99. <br />
-          The 1st digit of the key indicates the number of characters to move
-          forward for vowel characters, while the 2nd digit for consonant. Each
-          submission has a unique random key generated.
+          This app generates encrypt texts based on a random genrated number.
+          That number will be a two digit number randomly generated within the
+          range of 11 to 99. <br />
+          The 1st digit indicates the number of characters to move forward for
+          vowel characters, while the 2nd digit for consonant.
         </p>
       </div>
     </Aux>
