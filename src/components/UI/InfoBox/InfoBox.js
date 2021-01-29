@@ -23,9 +23,9 @@ const InfoBox = (props) => {
         }}
       >
         <p>
-          This app generates encrypt texts based on a random genrated number.
-          That number will be a two digit number randomly generated within the
-          range of 11 to 99. <br />
+          This app encrypt texts based on a random generated number. That number
+          will be a two digit number randomly generated within the range of 11
+          to 99. <br />
           The 1st digit indicates the number of characters to move forward for
           vowel characters, while the 2nd digit for consonant.
         </p>
